@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jeffery Redfield Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>JR</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-page">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Get in Touch</h2>
+                <p>Have a project in mind or just want to say hello? Feel free to reach out!</p>
+            </div>
+
+            <!-- Embedded Map Section -->
+            <section class="contact-map-section">
+                <h3>Find Me Here</h3>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.5483957890123!2d-112.18505!3d33.53760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b5d6e5d6e5d6d%3A0x5d6e5d6e5d6e5d6e!2s6997%20N%20Glen%20Harbor%20Blvd%2C%20Glendale%2C%20AZ%2085307!5e0!3m2!1sen!2sus!4v1234567890"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <div class="contact-content">
+                <!-- Contact Form Section -->
+                <section class="contact-form-section">
+                    <h3>Send Me a Message</h3>
+                    <form action="https://formspree.io/f/[YOUR_FORM_ID]" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                placeholder="Your Name" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="your.email@example.com" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                placeholder="What is this about?" 
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                placeholder="Your Message" 
+                                rows="5" 
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </section>
+
+                <!-- Contact Information Section -->
+                <section class="contact-info-section">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>6997 N Glen Harbor Blvd, Glendale, AZ 85307</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p><a href="tel:+1-602-619-7824">(+1) 602-619-7824</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:jredfi239@west-mec.org">jredfi239@west-mec.org</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Response Time</h4>
+                            <p>I typically respond within 24-48 hours</p>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="contact-social">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="projects.html">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:jredfi239@west-mec.org">jredfi239@west-mec.org</a></p>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 Jeffery Redfield. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
